@@ -5,7 +5,7 @@
 Summary:	QQC2StyleBridge
 Name:		kf5-%{kfname}
 Version:	5.39.0
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
@@ -67,6 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%dir %{_libdir}/qt5/plugins/kf5/kirigami
 %{_libdir}/qt5/plugins/kf5/kirigami/org.kde.desktop.so
 %{_libdir}/qt5/qml/QtQuick/Controls.2/org.kde.desktop
 %{_libdir}/qt5/qml/org/kde/qqc2desktopstyle
