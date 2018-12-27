@@ -1,15 +1,15 @@
-%define		kdeframever	5.39
-%define		qtver		5.8.0
+%define		kdeframever	5.53
+%define		qtver		5.9.0
 %define		kfname		qqc2-desktop-style
 
 Summary:	QQC2StyleBridge
 Name:		kf5-%{kfname}
-Version:	5.39.0
-Release:	2
+Version:	5.53.0
+Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	0520bc56ae94b6d7b29c40c334efc806
+# Source0-md5:	b873771ad44ec37625a79d7a41e8679f
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Quick-controls2-devel >= %{qtver}
