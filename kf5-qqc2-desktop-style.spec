@@ -17,7 +17,7 @@ BuildRequires:	Qt5Test-devel >= %{qtver}
 BuildRequires:	Qt5Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 2.8.12
 BuildRequires:	kf5-extra-cmake-modules >= %{version}
-BuildRequires:	kf5-kirigamii2-devel >= %{version}
+BuildRequires:	kf5-kirigami2-devel >= %{version}
 BuildRequires:	ninja
 BuildRequires:	rpmbuild(macros) >= 1.164
 BuildRequires:	tar >= 1:1.22
