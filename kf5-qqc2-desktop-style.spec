@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeframever	5.110
+%define		kdeframever	5.111
 %define		qtver		5.15.2
 %define		kfname		qqc2-desktop-style
 
 Summary:	QQC2StyleBridge
 Name:		kf5-%{kfname}
-Version:	5.110.0
+Version:	5.111.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	e09a44d46d88cf227505d329bcb2d1f5
+# Source0-md5:	0f523a9c46e768b1807c073f93261a4b
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Quick-controls2-devel >= %{qtver}
